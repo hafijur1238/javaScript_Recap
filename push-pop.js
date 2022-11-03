@@ -1,0 +1,10 @@
+var lastBench = ['Sabbir', 'Sumon', 'Sagor', 'Saif'];
+lastBench.push('Sorol');
+lastBench.push(23);
+lastBench.pop();
+var lastItem = lastBench.pop();
+var firstItem = lastBench.shift();
+lastBench.unshift('Saad');
+console.log(firstItem);
+console.log(lastBench);
+console.log(lastItem);
